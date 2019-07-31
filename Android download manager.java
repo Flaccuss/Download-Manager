@@ -15,8 +15,7 @@ public class MainActivity extends Activity
     private long enqueue;
     private final static String DOWNLOAD_URL ="https://img5.goodfon.com/original/1920x1080/b/cd/timothy-adry-by-timothy-adry-amc-javelin.jpg";
 	
-	//"http://colorsfx.com/android/files/smartlogo.png";
-    Button download;
+	Button download;
     ProgressDialog dialog = null;
     public static final int DIALOG_DOWNLOAD_PROGRESS = 0;
     private ProgressDialog mProgressDialog;
